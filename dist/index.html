@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="modal">
+        <div class="modal__container">
+            <a class="back-link" href="#">
+                <img src="assets/arrow.svg" alt="">
+                ВЕРНУТЬСЯ
+            </a>
+            <img class="modal__logo" src="assets/logo.png" alt="">
+            <form class="modal__form" action="">
+                <div class="text-input text-input_phone">
+                    <input type="text" class="text-input__field size-18" placeholder="Номер телефона" name="phone">
+                    <img class="text-input__icon text-input__icon_success" src="assets/tick.svg">
+                    <img class="text-input__icon text-input__icon_error" src="assets/error.svg">
+                </div>
+                <div class="text-input text-input_password">
+                    <input type="password" class="text-input__field size-18" placeholder="Пароль" name="password">
+                    <img class="text-input__icon text-input__icon_success visible" src="assets/tick.svg">
+                    <img class="text-input__icon text-input__icon_error hidden" src="assets/error.svg">
+                </div>
+                <div class="modal__form-row">
+                    <label class="switch-with-label">
+                        <input type="checkbox" class="switch-with-label__checkbox" name="remember-me">
+                        <span class="switch-with-label__slider"></span>
+                        <label for="" class="switch-with-label__label size-16">Запомнить</label>
+                    </label>
+                    <a href="#" class="link size-16">Забыл пароль</a>
+                </div>
+                <div class="modal__form-row flex-center">
+                    <button disabled class="button login-button size-12">
+                        ВОЙТИ
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section class="loader">
+
+    </section>
+    <script src="./main.js"></script>
+<script type="text/javascript" src="main.js"></script></body>
+
+</html>

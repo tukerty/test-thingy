@@ -1,0 +1,42 @@
+$black: #000;
+$white: #FFF;
+$burgundy: #B40000;
+
+$break-small: 630px;
+
+
+
+@keyframes spin {
+    100% { transform: rotate(360deg); }
+}
+
+.visible {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+.fade-out {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 0.5s, opacity 0.5s linear;
+  }
+
+.size-12{
+    font-size: 12px;
+}
+.size-16{
+    font-size: 16px;
+}
+.size-18{
+    font-size: 18px;
+}
+
+.flex-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
