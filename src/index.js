@@ -29,7 +29,6 @@ phoneField.addEventListener('change', (e) => {
     switch (phoneField.value.length) {
         case 17:
             phoneField.parentNode.classList.add('text-input_success')
-            success.phone = true
             break;
         case 0:
             phoneField.parentNode.classList.remove('text-input_success', 'text-input_error')
