@@ -22,6 +22,9 @@ phoneField.addEventListener('input', (e) => {
         if (passwordField.value.length >= 5) {
             loginButton.disabled = false
         }
+        else{
+            loginButton.disabled = true
+        }
     }
 })
 
@@ -47,6 +50,9 @@ passwordField.addEventListener('input', (e) => {
     passwordField.parentNode.classList.remove('text-input_error', 'text-input_success')
     if (phoneField.value.length == 17 && passwordField.value.length >= 5) {
         loginButton.disabled = false
+    }
+    else{
+        loginButton.disabled = true
     }
 })
 
